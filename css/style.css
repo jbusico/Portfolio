@@ -12,12 +12,12 @@ header {
 }
 
 .navImg {
-    border-radius: 50%;
+    border-radius: 174px;
     border-color: #0077B6;
     border-style: solid;
     border-width: 5px;
-    width: 15%;
-    height: 15%;
+    width: 170px;
+    height: 165px;    
 }
 
 .navbar-nav {
