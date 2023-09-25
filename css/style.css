@@ -195,7 +195,7 @@ main h6 {
   .infoPersonal {
     color: #caf0f8;
     font-family: "Oswald", sans-serif;
-    padding-left: 15%;
+    padding-left: 20%;
    }
 
    .competencias {
@@ -223,6 +223,8 @@ main h6 {
     border-width: 5px;
     width: 170px;
     height: 165px;
+    margin-left: 20px;
+    margin-top: 20px;
   }
 
 }
