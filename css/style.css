@@ -172,6 +172,37 @@ main h6 {
   color: #F94144;
 }
 
+.dark .subTitulo {
+  color: #F94144;
+}
+
+.dark .infoPersonal {
+  color: #F94144;
+}
+
+.dark .estudios {
+  color: #F94144;
+}
+
+.dark .skill-box h3 {
+  color: #F94144;
+}
+
+.dark .competencias li {
+  color: #F94144;
+}
+
+#button {
+  background-color: #001d3d;
+  color: #caf0f8;
+  margin-left: 670px;
+}
+
+.dark #button {
+  background-color: #540b0E;
+  color: #F94144;
+}
+
 .dark main h6 {
   color: #F94144;
 }
@@ -247,6 +278,26 @@ main h6 {
     padding-right: 5px;
     padding-left: 65px;
    }
+
+   #button {
+    margin-left: 120px;
+   }
+
+   .dark #fotoCarnet {
+    border-color: #AE2012;
+  }
+
+  .dark .offcanvas-body {
+    background-color: #540b0E;
+  }
+
+  .dark .offcanvas-header {
+    background-color: #540b0E;
+  }
+
+  .dark .nav-item .nav-link.active {
+    color: #F94144;
+  }
 }
 
 @media (min-width: 1024px) {
