@@ -138,6 +138,44 @@ main h6 {
  font-family: "Oswald", sans-serif;
 }
 
+.light {
+  background-color: #001d3d;
+}
+
+.dark {
+  background-color: #540b0E;
+}
+
+.dark header {
+  background-color: #540b0E;
+}
+
+.dark footer {
+  background-color: #540b0E;
+}
+
+.dark #foto {
+  border-color: #AE2012;
+}
+
+.dark .barraNav li a {
+  border-color: #AE2012;
+  background-color: #540b0E;
+  color: #F94144;
+}
+
+.dark .barraNav li a:hover {
+  color: #fff;
+}
+
+.dark .titulo {
+  color: #F94144;
+}
+
+.dark main h6 {
+  color: #F94144;
+}
+
 /* MEDIAQUERIES */
 
 @media (max-width: 768px) {
