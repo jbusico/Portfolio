@@ -4,7 +4,7 @@
   box-sizing: border-box;
 }
 
-header { 
+header {
   background-color: #001d3d;
 }
 
@@ -23,7 +23,7 @@ header {
   margin-right: 20%;
 }
 
-.barraNav ul{
+.barraNav ul {
   list-style-type: none;
   text-align: center;
   padding-left: 18%;
@@ -46,7 +46,7 @@ header {
   font-family: "Oswald", sans-serif;
 }
 
-.barraNav li a:hover{
+.barraNav li a:hover {
   color: white;
 }
 
@@ -58,9 +58,9 @@ header {
 }
 
 .subTitulo {
- color: #90e0ef;
- text-align: center;
- font-family: "Oswald", sans-serif;
+  color: #90e0ef;
+  text-align: center;
+  font-family: "Oswald", sans-serif;
 }
 
 .estudios {
@@ -70,10 +70,10 @@ header {
 }
 
 .infoPersonal {
- color: #caf0f8;
- font-family: "Oswald", sans-serif;
- padding-left: 42%;
- padding-top: 1%;
+  color: #caf0f8;
+  font-family: "Oswald", sans-serif;
+  padding-left: 42%;
+  padding-top: 1%;
 }
 
 body {
@@ -94,48 +94,48 @@ main h6 {
 }
 
 .container {
- display: grid;
- grid-template-columns: repeat(3, 1fr);
- justify-content: center;
- align-items: center;
- text-align: center;
- grid-gap: 16px;
- padding: 1rem 80px;
- font-size: 1.2rem;
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  grid-gap: 16px;
+  padding: 1rem 80px;
+  font-size: 1.2rem;
 }
 
 .skill-box {
- color: white;
+  color: white;
 }
 
 .skill-titulo {
- display: flex;
- flex-direction: column;
- align-items: center;
- padding: 0.5rem;
- margin: 0.5rem;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 0.5rem;
+  margin: 0.5rem;
 }
 
 .skill-titulo h3 {
- color: #caf0f8;
- font-family: "Oswald", sans-serif;
+  color: #caf0f8;
+  font-family: "Oswald", sans-serif;
 }
 
 .skill-img img {
- width: 90px;
- height: 90px;
- position: relative;
+  width: 90px;
+  height: 90px;
+  position: relative;
 }
 
 .skill-icon {
- width: 50px;
+  width: 50px;
 }
 
 .competencias {
- color: #caf0f8;
- padding-left: 42%;
- padding-top: 1%;
- font-family: "Oswald", sans-serif;
+  color: #caf0f8;
+  padding-left: 42%;
+  padding-top: 1%;
+  font-family: "Oswald", sans-serif;
 }
 
 .light {
@@ -222,9 +222,10 @@ main h6 {
     background-color: #001d3d;
   }
 
-  .navbar-nav .nav-link.active, .navbar-nav .nav-link.show {
+  .navbar-nav .nav-link.active,
+  .navbar-nav .nav-link.show {
     color: #90e0ef;
-}
+  }
 
   .offcanvas-body {
     background-color: #001d3d;
@@ -238,7 +239,7 @@ main h6 {
     text-align: center;
     padding: 1rem 80px;
     font-size: 1.2rem;
-   }
+  }
 
   .titulo {
     text-align: center;
@@ -246,13 +247,13 @@ main h6 {
     font-family: "Oswald", sans-serif;
     padding-left: 5%;
   }
-  
+
   .subTitulo {
-   color: #90e0ef;
-   text-align: center;
-   font-family: "Oswald", sans-serif;
+    color: #90e0ef;
+    text-align: center;
+    font-family: "Oswald", sans-serif;
   }
-  
+
   .estudios {
     padding-left: 20%;
     display: block;
@@ -260,30 +261,30 @@ main h6 {
     color: #caf0f8;
     font-family: "Oswald", sans-serif;
   }
-  
+
   .infoPersonal {
     color: #caf0f8;
     font-family: "Oswald", sans-serif;
     padding-left: 20%;
-   }
+  }
 
-   .competencias {
+  .competencias {
     color: #caf0f8;
     padding-left: 28%;
     padding-top: 1%;
     font-family: "Oswald", sans-serif;
-   }
+  }
 
-   a {
+  a {
     padding-right: 5px;
     padding-left: 65px;
-   }
+  }
 
-   #button {
+  #button {
     margin-left: 120px;
-   }
+  }
 
-   .dark #fotoCarnet {
+  .dark #fotoCarnet {
     border-color: #AE2012;
   }
 
@@ -316,4 +317,7 @@ main h6 {
     margin-top: 20px;
   }
 
+  #button {
+    margin-left: 580px;
+  }
 }
